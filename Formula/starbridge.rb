@@ -1,28 +1,28 @@
 class Starbridge < Formula
   desc "Answer your coding agents' decisions from your phone and watch AI plan quotas"
   homepage "https://github.com/T0mSIlver/starbridge"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.1/starbridge-darwin-arm64"
-      sha256 "b844a50c7a6506d3ac8dd1fbcdfdf0bc14b66146bb65d5f6b4ad32165bc98d30"
+      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.2/starbridge-darwin-arm64"
+      sha256 "c4f146c15384ed3259814b95f4f0369e70e643aec1c885b903879757c8d1b606"
     end
     on_intel do
-      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.1/starbridge-darwin-x64"
-      sha256 "193bf39e734fd7fd3edc402d0baf506ff294dd419f15432943f1a86b8438f1e0"
+      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.2/starbridge-darwin-x64"
+      sha256 "a7937bec5613b162125f19b56bb18b522fc3e3ca68e1d4f8799a8d68d57d05b3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.1/starbridge-linux-arm64"
-      sha256 "6c1046b702e682dac2bfefcd03f956c13d9f9debc284fd82e0e7676224365628"
+      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.2/starbridge-linux-arm64"
+      sha256 "f5d650e01f8d8c0f745a730b3094576ec0a790be7cac0ed12eb2d1235b8be944"
     end
     on_intel do
-      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.1/starbridge-linux-x64"
-      sha256 "b5d597134f04e5fbc1b5505f20681003b09b9b2632d413b28e0dff92d0e5bac2"
+      url "https://github.com/T0mSIlver/starbridge/releases/download/v0.1.2/starbridge-linux-x64"
+      sha256 "8f98eda2471820cc15b47caf00048ad3ebc6222481c413d0c9bd97992c4e2b65"
     end
   end
 
